@@ -1,0 +1,21 @@
+Great commenting! AMAZING test cases!
+
+Things that you might want to consider revolve around multiline commenting.
+For example, line 245 you have "/* use OR to change all the 1's in the number */"
+It's not a big issue, but sometimes the extra stars can be confusing. It can be a single line comment instead.
+
+Also, on line 271-272, you don't need the stars on every line if it's multiline.
+"
+ /* find difference of x with max and min and then shift it to n +1 */
+ /* to the left and opposite it */
+"
+
+Can be:
+/* find difference of x with max and min and then shift it to n +1
+   to the left and opposite it */
+
+Final C score for Performance	30
+Final C score for Correctness	27.33
+Final ARM Score	13.27942857
+Style Score	5
+Total Score	75.60942857
